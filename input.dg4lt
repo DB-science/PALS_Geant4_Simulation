@@ -1,0 +1,56 @@
+! @author:  Danny Petschke
+! @contact: danny.petschke@uni-wuerzburg.de
+! @date:    2020-05-21
+!
+! This input file serves as a template.
+! Just modify the values following the parameter names.
+! Each listed value is mandatory to execute the 
+! simulation properly.
+
+! *********************************************
+! ***************** isotope ******************* 
+! *********************************************
+
+! { 22Na, 60Co, 207Bi }
+# name_of_isotope 22Na
+
+! *********************************************
+! *************** exp. decays ***************** 
+! *********************************************
+! ***** ONLY considered in case of 22-Na ******
+! *********************************************
+
+! [#]
+# ltDecay1_enabled 1
+! [ns]
+# ltDecay1_tau 0.32
+! [#]
+# ltDecay1_intensity 1.00
+
+! [#]
+# ltDecay2_enabled 0
+! [ns]
+# ltDecay2_tau 0.390
+! [#]
+# ltDecay2_intensity 0.147
+
+! [#]
+# ltDecay3_enabled 0
+! [ns]
+# ltDecay3_tau 2.3
+! [#]
+# ltDecay3_intensity 0.003
+
+! [#]
+# ltDecay4_enabled 0
+! [ns]
+# ltDecay4_tau 2.3
+! [#]
+# ltDecay4_intensity 0.003
+
+! [#]
+# ltDecay5_enabled 0
+! [ns]
+# ltDecay5_tau 2.3
+! [#]
+# ltDecay5_intensity 0.003
